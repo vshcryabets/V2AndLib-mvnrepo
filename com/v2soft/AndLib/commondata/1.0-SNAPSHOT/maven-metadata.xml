@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
-  <groupId>com.v2soft.AndLib.commondata</groupId>
-  <artifactId>code-base</artifactId>
+  <groupId>com.v2soft.AndLib</groupId>
+  <artifactId>commondata</artifactId>
   <version>1.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20140123.145820</timestamp>
+      <timestamp>20140123.165851</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20140123145820</lastUpdated>
+    <lastUpdated>20140123165851</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20140123.145820-1</value>
-        <updated>20140123145820</updated>
+        <value>1.0-20140123.165851-1</value>
+        <updated>20140123165851</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20140123.145820-1</value>
-        <updated>20140123145820</updated>
+        <value>1.0-20140123.165851-1</value>
+        <updated>20140123165851</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
