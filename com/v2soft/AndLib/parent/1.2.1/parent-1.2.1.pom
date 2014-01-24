@@ -212,7 +212,7 @@
     <repository>
       <id>internal.repo</id>
       <name>Internal Repository</name>
-      <url>file://${basedir}/../V2AndLib-mvnrepo/</url>
+      <url>file://${basedir}/V2AndLib-mvnrepo/</url>
     </repository>
   </distributionManagement>
 

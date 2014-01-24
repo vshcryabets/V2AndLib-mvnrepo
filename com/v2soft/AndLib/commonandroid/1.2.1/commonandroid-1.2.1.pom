@@ -7,7 +7,7 @@
     <groupId>com.v2soft.AndLib</groupId>
     <artifactId>parent</artifactId>
     <version>1.2.1</version>
-    <relativePath>https://dl.dropboxusercontent.com/u/18391781/V2AndLib-parent-pom/pom.xml</relativePath>
+    <relativePath>../pom.xml</relativePath>
   </parent>
 
   <artifactId>commonandroid</artifactId>
@@ -79,4 +79,13 @@
       </plugin>
     </plugins>
   </build>
+  
+  <distributionManagement>
+    <repository>
+      <id>internal.repo</id>
+      <name>Internal Repository</name>
+      <url>file://${basedir}/../V2AndLib-mvnrepo/</url>
+    </repository>
+  </distributionManagement>
+
 </project>
