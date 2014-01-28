@@ -3,10 +3,11 @@
   <groupId>com.v2soft.AndLib</groupId>
   <artifactId>commonandroid</artifactId>
   <versioning>
-    <release>1.2.1</release>
+    <release>1.2.1-api10</release>
     <versions>
       <version>1.2.1</version>
+      <version>1.2.1-api10</version>
     </versions>
-    <lastUpdated>20140124141731</lastUpdated>
+    <lastUpdated>20140128184556</lastUpdated>
   </versioning>
 </metadata>
