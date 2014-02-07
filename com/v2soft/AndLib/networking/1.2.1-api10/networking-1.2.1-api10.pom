@@ -6,7 +6,7 @@
   <parent>
     <groupId>com.v2soft.AndLib</groupId>
     <artifactId>parent</artifactId>
-    <version>1.2.1-api10</version>
+    <version>1.2.1</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
