@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -11,10 +10,19 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>commonandroid</artifactId>
-    <name>V2AndLib-commonandroid</name>
+    <artifactId>sketches</artifactId>
+    <name>V2AndLib-sketches</name>
     <version>1.2.4-api10</version>
     <packaging>apklib</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.v2soft.AndLib</groupId>
+            <artifactId>commonandroid</artifactId>
+            <version>1.2.4-api10</version>
+            <type>apklib</type>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
@@ -23,6 +31,7 @@
                 <artifactId>android-maven-plugin</artifactId>
                 <extensions>true</extensions>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -44,8 +53,8 @@
                 </executions>
                 <configuration>
                     <ignoreMissingFile>false</ignoreMissingFile>
-                    <file>target/generated-sources/r/com/v2soft/AndLib/commonandroid/R.java</file>
-                    <outputFile>target/generated-sources/r/com/v2soft/AndLib/commonandroid/R.java</outputFile>
+                    <file>target/generated-sources/r/com/v2soft/AndLib/sketches/R.java</file>
+                    <outputFile>target/generated-sources/r/com/v2soft/AndLib/sketches/R.java</outputFile>
                     <regex>false</regex>
                     <token>static final int</token>
                     <value>static int</value>

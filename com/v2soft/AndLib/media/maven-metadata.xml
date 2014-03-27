@@ -3,13 +3,13 @@
   <groupId>com.v2soft.AndLib</groupId>
   <artifactId>media</artifactId>
   <versioning>
-    <release>1.2.4</release>
+    <release>1.2.4-api10</release>
     <versions>
       <version>1.2.1</version>
       <version>1.2.1-api10</version>
       <version>1.2.4-api10</version>
       <version>1.2.4</version>
     </versions>
-    <lastUpdated>20140327144452</lastUpdated>
+    <lastUpdated>20140327150050</lastUpdated>
   </versioning>
 </metadata>
